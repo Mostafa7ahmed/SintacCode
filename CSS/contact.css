@@ -1,0 +1,292 @@
+.contact {
+    background: url(/Image/contact.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    height: 44rem;
+    background-position-x: center;
+}
+.information1 {
+    position: absolute;
+    width: 100%;
+    height: 85%;
+    opacity: 10;
+    background-color: #0801012e;
+}
+
+.information1 h1 {
+    padding-top: 14rem;
+    width: 100%;
+    margin-left: 450px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: #f4ecec;
+}
+
+.information1 h5 {
+    font-family: sans-serif;
+    margin-left: 380px;
+    width: 50%;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #e4dddd;
+}
+.information1 span {
+    font-family: sans-serif;
+    margin-left: 680px;
+    padding: 20px;
+}
+
+.contact1 {
+    display: flex;
+    background-color: #e8e8e8;
+}
+
+.cart {
+    padding: 1.7rem;
+    margin: 1rem;
+    display: flex;
+    width: 500px;
+    height: 107px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.cart:hover {
+    background-color:rgba(18, 66, 148, 0.33);
+}
+.info {
+    margin-left: 20px;
+}
+
+.cart .icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color:rgba(18, 66, 148, 0.33);
+    position: relative;
+    top: -10px;
+    right: 7px;
+}
+
+.icon i {
+    margin-left: 20px;
+    position: relative;
+    top: 27px;
+    left: 9px;
+    font-size: 25px;
+}
+
+.contact-us {
+    width: 100%;
+    padding: 6em;
+}
+.form {
+    position: relative;
+    width: 100%;
+    height: 360px;
+    padding: 1em;
+    border-radius: 10px;
+    margin-top: 110px;
+    margin-right: 90px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.btn-send {
+    padding: 20px;
+}
+
+.form h1 {
+    padding: 6px;
+}
+.form p {
+    padding: 5px;
+}
+input {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgba(159, 159, 159, 1);
+    border-radius: 4px;
+}
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid rgba(159, 159, 159, 1);
+    border-radius: 4px;
+    color: rgba(159, 159, 159, 1);
+    font-size: 16px;
+    resize: none;
+}
+.infor h1 {
+    padding-top: 4rem;
+    width: 100%;
+    margin-left: 450px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+}
+.infor p {
+    font-family: sans-serif;
+    margin-left: 450px;
+    width: 50%;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.infor img {
+    margin-left: 300px;
+    width: 70%;
+    padding: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+@media screen and (max-width: 450px){
+    .information1 {
+        width: 100%;
+        height: 79%;
+    }
+    .information1 h1 {
+        margin-left: 0px;
+        font-size: 35px;
+        width: 100%;
+    }
+
+    .information1 h5 {
+        margin-left: 0px;
+        font-size: 17px;
+        width: 100%;
+    }
+    .information1 span {
+        margin-left: 100px;
+        width: 100%;
+    }
+
+    .contact1 {
+        display: grid;
+    }
+
+    .contact-us {
+        padding: 8px;
+    }
+    .cart {
+        width: 370px;
+    }
+    .form {
+        width: 363px;
+        margin-left: 23px;
+        margin-bottom: 10px;
+    }
+    .btn-send {
+        margin-left: 2px;
+    }
+    .info h1{
+        margin-left: 10px;
+        font-size: 10px;
+        width: 100%;
+    }
+    .infor h1 {
+        margin-left: 10px;
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .infor p {
+        margin-left: -10px;
+        font-size: 17px;
+        width: 100%;
+    }
+    .infor img {
+        margin-left: 0px;
+        padding: 15px;
+        width: 100%;
+    }
+}
+@media screen and (max-width:393px) {
+    .contact1{
+        display: inherit;
+        padding: 10px;
+    }
+    .cart {
+        margin-top: 10px;
+        width: 100px;
+    }
+    .form {
+        width: 92%;
+        margin-top: 10px;
+    }
+    .information1 {
+        height: 83%;
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:360px) {
+    .contact-us {
+        margin-left: -20px;
+    }
+    .form {
+        width: 95%;
+        margin-left: 7px;
+    }
+    .infor h1 {
+        margin-left: 15px;
+        font-size: 25px;
+    }
+    .cart {
+        
+        width: 100px;
+    }
+}
+@media screen and (max-width:820px) {
+    .information1 {
+        width: 100%;
+        height: 60%;
+    }
+    .information1 h1 {
+        margin-left: 30px;
+        font-size: 35px;
+        width: 100%;
+    }
+
+    .information1 h5 {
+        margin-left: 0px;
+        font-size: 17px;
+        width: 100%;
+    }
+    .information1 span {
+        margin-left: 100px;
+        width: 100%;
+    }
+    .contact1 {
+        display: inherit;
+    }
+    .cart {
+        width: 630px;
+        margin-top: 10px;
+        margin-left: -30px;
+    }
+    .form {
+        width: 80%;
+        margin-left: 55px;
+        
+    }
+    .infor {
+        margin-bottom: 90px;
+    }
+    .infor h1 {        
+        margin-left: 50px;
+    }
+    .infor p {
+        margin-left: 40px;
+    }
+    .infor img {
+        margin-left: 70px;
+    }
+}

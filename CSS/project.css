@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background-image: url(/Image/project.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.row h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 2.75em;
+    margin: 0em 0;
+    font-weight: 600;
+    color: #ffffff;
+}
+.rw h1 {
+    text-align: center;
+    font-size: 2.75em;
+    font-weight: 600;
+}
+
+.paragraph {
+    width: 50%;
+    float: left;
+}
+.paragraph p {
+    padding: 50px;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.image {
+    width: 50%;
+    height: 20%;
+    float: right;
+    border-radius: 6px;
+}
+.column {
+    padding: 1em;
+}
+.card1:hover {
+    opacity: 0.5;
+    width: 100%;
+    transform: scale(1.06);
+    
+}
+
+.icon:before {
+    position: absolute;
+    content: "";
+    height: 1.5em;
+    width: 1.5em;
+    border: 0.12em solid #397ef6;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.card h3 {
+    font-size: 1.3em;
+    margin: 1em 0 1.4em 0;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    color: #070024;
+}
+.card p {
+    line-height: 2em;
+    color: #625a71;
+}
+.card:hover {
+    background-position: 0;
+}
+.card:hover .icon:before {
+    height: 2.25em;
+    width: 2.25em;
+}
+
+@media screen and (min-width: 768px) {
+    section {
+        padding: 1em 7em;
+    }
+    
+}
+@media screen and (min-width: 992px) {
+    section {
+        padding: 1em;
+    }
+    .card1 {
+        width: 100%;
+        padding: 25px;
+        margin-top: 50px;
+    }
+    .row h1 {
+        font-size: 3em;
+        padding: 120px;
+    }
+    .card {
+        padding: 5em 2em;
+    }
+    .card .imge {
+        width: 700px;
+        padding-left: 200px;
+    }
+
+    .column {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+        padding: 0 1em;
+    }
+}
